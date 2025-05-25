@@ -1,0 +1,60 @@
+# Movie Explorer React Native App
+
+## Proje Hakkında
+
+Movie Explorer, React Native ve Expo kullanılarak geliştirilmiş, film keşfetmeye yönelik mobil bir uygulamadır.  
+The Movie Database (TMDB) API'sinden film verilerini çekerek kullanıcıya popüler, kategorilere ayrılmış ve favori filmler listesini sunar.  
+
+Kullanıcılar uygulama içerisinde film araması yapabilir, filmleri favorilerine ekleyip çıkarabilir, detaylı film bilgilerini görüntüleyebilirler.  
+Kategoriler sekmesi ile farklı film türlerini keşfedebilir, profil sayfasından kullanıcı bilgilerini görebilirler.
+
+---
+
+## Özellikler
+
+- Anasayfa: Popüler ve yüksek puanlı filmler listelenir.  
+- Film Arama: Arama çubuğu ile film isimlerine göre filtreleme.  
+- Favori Filmler: Favorilere eklenen filmler listelenir.  
+- Kategoriler: Film türlerine göre filtreleme ve listeleme.  
+- Film Detayları: Film hakkında detaylı bilgiler ve favoriye ekleme/kaldırma.  
+- Profil: Kullanıcı bilgileri ve profil fotoğrafı gösterimi (modal ile detay).  
+- Çoklu Navigasyon: Tab ve Stack navigasyon kombinasyonu ile kullanıcı dostu gezinme.
+
+---
+
+## Teknolojiler
+
+- React Native  
+- Expo  
+- React Navigation (Tab ve Stack Navigator)  
+- The Movie Database (TMDB) API  
+- Context API (Favori filmler yönetimi)  
+- Expo Vector Icons  
+
+---
+
+## Kurulum ve Çalıştırma
+
+1. Depoyu klonlayın:
+git clone https://github.com/kullaniciadi/movielister.git
+2. Proje dizinine girin:
+cd ...MobilMovie
+3. Bağımlılıkları yükleyin:
+npm install 
+4. Expo uygulamasını başlatın:
+npx expo start
+5. Mobil cihazınızda Expo Go uygulaması ile QR kodu tarayarak veya emülatör ile çalıştırabilirsiniz.
+
+---
+
+## Katkıda Bulunma
+
+Projeye katkıda bulunmak isterseniz, lütfen pull request gönderin veya issue açarak önerilerinizi paylaşın.
+
+---
+## İletişim
+
+Herhangi bir soru veya destek için: 
+Okul Mail   :  sena.uzum@std.yildiz.edu.tr
+Kişisel Mail:  senauzum77@gmail.com
+Linkedln    :  linkedin.com/in/sena-üzüm-26163b1b7
