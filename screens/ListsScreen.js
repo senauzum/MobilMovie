@@ -23,7 +23,7 @@ const ListsScreen = () => {
   useEffect(() => {
     if (activeTab === 'categories') {
       getGenres().then(setGenres);
-      setSelectedGenre(null); // Reset when switching tab
+      setSelectedGenre(null); 
     }
   }, [activeTab]);
 
@@ -31,7 +31,7 @@ const ListsScreen = () => {
     if (selectedGenre) {
       getMoviesByGenre(selectedGenre).then(setGenreMovies);
     } else {
-      setGenreMovies([]); // Clear movies if no genre selected
+      setGenreMovies([]);
     }
   }, [selectedGenre]);
 
@@ -193,7 +193,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     alignItems: 'center',
     justifyContent: 'center',
-    width: '48%', // 2 sütun için genişlik
+    width: '48%',
     marginBottom: 12,
   },
   genreIcon: {

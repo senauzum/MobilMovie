@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '36397bc9d07dc1347f3653507f3061ac'; // TMDB API anahtarını buraya yaz
+const API_KEY = '36397bc9d07dc1347f3653507f3061ac'; // TMDB API anahtarı
 const BASE_URL = 'https://api.themoviedb.org/3';
 
 export const getTopRatedMovies = async () => {

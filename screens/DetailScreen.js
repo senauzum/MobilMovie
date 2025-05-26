@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   titleRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between', // ← kalp sağa hizalanır
+    justifyContent: 'space-between',
     marginBottom: 8,
   },
   title: {

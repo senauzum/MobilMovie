@@ -19,7 +19,7 @@ const MovieCard = ({ movie, style }) => {
   const navigation = useNavigation();
 
   const goToDetail = () => {
-    navigation.navigate('Detail', { movie }); // 🎯 filme tıklayınca gönderiyoruz
+    navigation.navigate('Detail', { movie });
   };
 
   return (

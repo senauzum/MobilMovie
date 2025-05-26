@@ -81,8 +81,8 @@ const styles = StyleSheet.create({
   },
   row: {
     flexWrap: 'wrap',
-    justifyContent: 'flex-start', // düzgün hizalama için
-    gap: 15, // React Native 0.71+ destekliyorsa
+    justifyContent: 'flex-start', 
+    gap: 15,
   },
 });
 
